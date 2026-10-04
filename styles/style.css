@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --main-color: rgb(2, 89, 91);
+    --middle-color: rgb(4, 133, 122);
+    --minor-color: rgb(211, 168, 12);
+    --error-color: rgb(165, 48, 9);
+    --back-color: rgb(251, 249, 244);
+    --back2-color: rgb(226, 243, 235);
+    --back3-color: rgb(184, 226, 206);
+}
+
+html {
+    background-color: var(--back-color);
+    font-size: 20px;
+    font-family: Readex Pro;
+}
+
+input, button {
+    font: inherit;
+}
+body {
+    padding: 0px 40px 40px 40px;
+}
+
+h1 {
+    color: var(--middle-color);
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--main-color);
+    font-size: 30px;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 30px 0;
+}
+
+#city-input {
+    flex: 1;
+    padding: 5px 15px;
+    border: 1.5px solid var(--middle-color);
+    border-radius: 20px;
+    color: var(--main-color);
+    background-color: white;
+    outline: none;
+}
+
+#search-btn {
+    padding: 5px 15px;
+    border: 1.5px solid var(--middle-color);
+    border-radius: 20px;
+    background-color: var(--back2-color);
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: var(--back3-color);
+}
+
+.main {
+    color: var(--main-color);
+    font-size: 26px;
+    text-align: center;
+    line-height: 0.5;
+    margin-bottom: 50px;
+}
+.card {
+    color: var(--middle-color);
+    font-size: 20px;
+    line-height: 0.7;
+    margin-bottom: 50px;
+}
+
+.note {
+    color: var(--main-color);
+    font-size: 19px;
+}
+
+.weather-info {
+    text-align: center;
+    color: var(--middle-color);
+}
+
+.error {
+    color: var(--error-color);
+}
+
+a {
+    color: var(--middle-color);
+}
+
+a:hover {
+    color: var(--minor-color);
+}
+
+.app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
