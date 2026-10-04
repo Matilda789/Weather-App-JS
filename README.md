@@ -17,19 +17,22 @@
 Открыть index.html в браузере или запустить через локальный сервер.
 
 Приложение использует бесплатный API.
+
 Ключ хранится в scripts/main.js в переменной API_KEY.
+
 Свой ключ можно получить после регистрации в личном кабинете WeatherAPI.com.
 
 ## Скриншоты
 ### Главный экран
-![Главный экран](screenshots/main-page.png)
+![Главный экран](screenshots/main-page.PNG)
 ### Погода в городе
-![Показ погоды](screenshots/weather-data.png)
+![Показ погоды](screenshots/weather-data.PNG)
 ### Ошибка при вводе пустого поля
-![Ошибка - пустой ввод](screenshots/empty-field-error.png)
+![Ошибка - пустой ввод](screenshots/empty-field-error.PNG)
 ### Ошибка при вводе некорректной локации
-![Ошибка - локация не найдена](screenshots/no-locations-errror.png)
+![Ошибка - локация не найдена](screenshots/no-locations-error.PNG)
 
 ## Благодарность
 Данные о погоде - WeatherAPI.com (https://www.weatherapi.com/). 
+
 Шрифт - Readex Pro с Google Fonts (https://fonts.google.com/specimen/Readex+Pro).
